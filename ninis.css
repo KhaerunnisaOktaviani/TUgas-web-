@@ -1,0 +1,25 @@
+body {margin:0; background-color: #BEF1F4}
+header {background: #3395CC}
+header nav {display: flex;justify-content: center;}
+header nav ul {list-style: none;margin:0;padding: 0}
+header nav a {color: #FFF;text-decoration: none; padding:40px 30px; display:inline-block;}
+header nav ul li {float:left;}
+header nav ul ul {border-color:#FFF; position: absolute; width: 200px; visibility: hidden; opacity: 0; transition: opacity .3s ease;}
+header nav a:hover {background: #FFF; color: #000;}
+header nav ul img {width: 100%; height: 100px;}
+header img {width: 1400px; height: 400px;}
+header nav ul li {float:left;}
+header nav ul li li {width: 100%;}
+header nav ul li:hover>ul{visibility: visible; opacity: 1;}
+header nav ul li;hover>ul{visibility: visible; opacity: 1;}
+header nav li;hover>h2 {color: #FFF;text-decoration: none;padding: 15px 30px; display:inline-block;}
+.clear {clear:both;}
+#content {width: 80%; margin:0 auto;}
+#content .banner{width:50%; float:left;}
+#content .banner .pad{padding: 10px; margin: 10px; border:solid 1px #FFF;}
+#content .banner .pad img{margin: 0px; width: 300px; height: 150px;}
+
+#content .banner .row{padding: 10px; margin: 10px; border: solid: 1px #FFF;}
+#content .banner .row img {margin: 10px; width: 300px; height: 150px;}
+
+
